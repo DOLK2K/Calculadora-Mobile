@@ -87,7 +87,7 @@ function App() {
           </div>
 
           <div className='elemento4'>
-            <button className='barra' onClick={operacoes} value={'/'}  > <img src={barra}   />  </button>
+            <button className='barra' style={{fontSize:"20px", color:"#005DB2"}} onClick={operacoes} value={'/'}  >   /  </button>
             <div className='ebaaa'>
               <button onClick={value} value={9}  className='numeros'>9</button>
               <button onClick={value} value={6}  className='numeros'>6</button>
