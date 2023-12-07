@@ -12,12 +12,14 @@ function App() {
       let x = e.target.value
 
       if (numero === 0) {
-        setNumero( x)
+        setNumero(x)
       } else {
         setNumero(numero + x)
       }
       
     }
+
+    
 
     function ApagarTudo () {
       setNumero(0)
@@ -56,6 +58,7 @@ function App() {
 
   return (
     <div className="App">
+    <div className='corzinha'>
       <div className='cabecalho'>
         <h1>Portfólio.me</h1>
         <p>DOLK2K/Vinícius Brito Gonçalves</p>
@@ -102,6 +105,7 @@ function App() {
               <button onClick={operacoes} value={'+'} >+</button>
               <button onClick={calcular}  value={'='}>=</button>
             </div>
+
           </div>
         </div>
 
@@ -110,6 +114,7 @@ function App() {
           <button value={'.'}  className='ponto'> .</button>
           <button  className='ponto' style={{ visibility: "hidden" }}>.</button>
         </div>
+      </div>
       </div>
     </div>
   );
