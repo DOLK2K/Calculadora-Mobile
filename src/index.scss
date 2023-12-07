@@ -7,40 +7,40 @@
     font-family: 'Poppins';
 }
 
-// .App {
-//     height: 100vh;
-// }
+.App {
+    height: 100vh;
+}
 
-// .corzinha {
-//    min-height: 100%;
-//     background-color: #A0D7FF;
-//     min-width: 100%;
-// }
+.corzinha {
+   min-height: 100%;
+    background-color: #A0D7FF;
+    min-width: 100%;
+}
 
-// .resultados {
-//     display: flex;
-//     flex-direction: column;
+.resultados {
+    display: flex;
+    flex-direction: column;
 
-// }
-
-
-// .resultado {
-//     display: flex;
-//     justify-content: right;
-//     font-size: 3.5em;
-//     color: #ffff;
-//     margin-right: 0.5em;
-// }
+}
 
 
-// .cabecalho {
-//     display: flex;
-//     flex-direction: row;
-//     align-items: center;
-//     background-color: #ffff;
-//     box-shadow: 0px 0px 5px #fff;
-//     height: 12%;
-// }
+.resultado {
+    display: flex;
+    justify-content: right;
+    font-size: 3.5em;
+    color: #ffff;
+    margin-right: 0.5em;
+}
+
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #ffff;
+    box-shadow: 0px 0px 5px #fff;
+    height: 12%;
+}
 
 .cabecalho h1,p {
     margin: 10px;
@@ -254,124 +254,25 @@
     color: #29A8FF;
 }
 
+@media screen and (max-width: 768px) {
+    .elemento1 {
+        margin-left: 5%; /* Ajuste de margem para dispositivos móveis */
+    }
 
-// @media (max-width:980px) {
-//     .App {
-//     height: 170vh;
-// }
+    .cabecalho {
+        height: auto; /* Altura automática para acomodar o conteúdo */
+        flex-direction: column;
+    }
 
-// .cabecalho h1 {
-//     font-size: 2.5em;
-// }
+    .cabecalho h1, p {
+        margin-bottom: 10px;
+    }
 
-// .cabecalho p {
-//     font-size: 1.5em;
-// }
+    .zerow {
+        width: 100%; /* Ocupa toda a largura do contêiner */
+    }
 
-// .elemento1 {
-//     max-height: 45%;
-//     margin-top: 15em;
-// }
-
-// }
-
-// @media (max-width:528px) {
-//     .App {
-//         height: 190vh;
-//     }
-
-
-//     .elemento1 {
-//         font-size: 1.5em;
-//         max-height: 45%;
-        
-//     }
-
-//     .elemento1 button {
-//         font-size: 1.7em;
-//     }
-
-    
-// }
-
-
-// @media (max-width:476px) {
-
-//     .App {
-//         background-color: #A0D7FF;
-//         height: 200vh;
-//     }
-
-
-//     .elemento1 {
-//         max-height: 40%;
-//     }
-// }
-
-
-// @media (max-width:449px ) {
-//     .App {
-//         height: 230vh;
-//     }
-
-//     .elemento1 {
-//         max-height: 35%;
-//     }
-// }
-
-
-// @media (max-width:391px) {
-//     .App {
-
-//         height: 250vh;
-//     }
-
-
-// }
-
-// @media (max-width:360px) {
-//     .App {
-//         height: 260vh;
-//     }
-
-
-//     .elemento1 {
-//         max-height: 26%;
-    
-//     }
-// }
-
-
-// @media (max-width:345px) {
-//     .App {
-//         height: 280vh;
-//     }
-
-
- 
-// }
-
-
-// @media (max-width:322px) {
-//     .App {
-//         height: 295vh;
-//     }
-
-
-//     .elemento1 {
-//         max-height: 23%;
-    
-//     }
-// }
-
-// @media (max-width:302px) {
-//     .App {
-//         height: 310vh;
-//     }
-
-
-//     .elemento1 {
-//         max-height: 20%;
-    
-//     }
-// }
+    .ponto {
+        margin: 5px;
+    }
+}
