@@ -256,11 +256,11 @@
 
 @media screen and (max-width: 768px) {
     .elemento1 {
-        margin-left: 5%; /* Ajuste de margem para dispositivos móveis */
+        margin-left: 5%;
     }
 
     .cabecalho {
-        height: auto; /* Altura automática para acomodar o conteúdo */
+        height: auto; 
         flex-direction: column;
     }
 
@@ -269,7 +269,7 @@
     }
 
     .zerow {
-        width: 100%; /* Ocupa toda a largura do contêiner */
+        width: 100%; 
     }
 
     .ponto {
